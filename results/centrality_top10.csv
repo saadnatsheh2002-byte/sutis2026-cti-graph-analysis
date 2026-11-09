@@ -1,0 +1,101 @@
+subset,measure,rank,node,kind,name,score
+all,degree,1,T1059,technique,Command and Scripting Interpreter,0.4846029173419773
+all,degree,2,T1027,technique,Obfuscated Files or Information,0.4084278768233387
+all,degree,3,T1105,technique,Ingress Tool Transfer,0.4059967585089141
+all,degree,4,T1071,technique,Application Layer Protocol,0.3711507293354943
+all,degree,5,T1082,technique,System Information Discovery,0.3419773095623987
+all,degree,6,T1083,technique,File and Directory Discovery,0.29740680713128037
+all,degree,7,T1070,technique,Indicator Removal,0.2820097244732577
+all,degree,8,T1140,technique,Deobfuscate/Decode Files or Information,0.2787682333873582
+all,degree,9,T1036,technique,Masquerading,0.25688816855753643
+all,degree,10,T1057,technique,Process Discovery,0.2552674230145867
+all,betweenness,1,T1059,technique,Command and Scripting Interpreter,0.12745563354837655
+all,betweenness,2,T1027,technique,Obfuscated Files or Information,0.07511116121746782
+all,betweenness,3,T1105,technique,Ingress Tool Transfer,0.0740239537713094
+all,betweenness,4,T1071,technique,Application Layer Protocol,0.060386687982920774
+all,betweenness,5,T1082,technique,System Information Discovery,0.04282173215153215
+all,betweenness,6,T1083,technique,File and Directory Discovery,0.04052030453495015
+all,betweenness,7,T1070,technique,Indicator Removal,0.03254655735782296
+all,betweenness,8,T1036,technique,Masquerading,0.032307365177685385
+all,betweenness,9,T1140,technique,Deobfuscate/Decode Files or Information,0.03159802788921733
+all,betweenness,10,T1057,technique,Process Discovery,0.025055020813568377
+all,closeness,1,T1059,technique,Command and Scripting Interpreter,0.6136250621581303
+all,closeness,2,T1027,technique,Obfuscated Files or Information,0.5609090909090909
+all,closeness,3,T1105,technique,Ingress Tool Transfer,0.5563570784490532
+all,closeness,4,T1071,technique,Application Layer Protocol,0.53258523953388
+all,closeness,5,T1082,technique,System Information Discovery,0.5118208212360017
+all,closeness,6,S0154,software,Cobalt Strike,0.5010150223304912
+all,closeness,7,T1036,technique,Masquerading,0.4985858585858586
+all,closeness,8,G0096,group,APT41,0.49618013671089667
+all,closeness,9,G0034,group,Sandworm Team,0.49518459069020865
+all,closeness,10,G0094,group,Kimsuky,0.4945891783567134
+all,eigenvector,1,T1059,technique,Command and Scripting Interpreter,0.21007134374546396
+all,eigenvector,2,T1027,technique,Obfuscated Files or Information,0.18927663151829643
+all,eigenvector,3,T1105,technique,Ingress Tool Transfer,0.18544945720379372
+all,eigenvector,4,T1071,technique,Application Layer Protocol,0.1705827983626903
+all,eigenvector,5,T1082,technique,System Information Discovery,0.1650814094566312
+all,eigenvector,6,T1070,technique,Indicator Removal,0.13961389933251334
+all,eigenvector,7,T1083,technique,File and Directory Discovery,0.13919495233485543
+all,eigenvector,8,T1140,technique,Deobfuscate/Decode Files or Information,0.13067235280724285
+all,eigenvector,9,T1057,technique,Process Discovery,0.1278210064387021
+all,eigenvector,10,T1036,technique,Masquerading,0.1263082592401522
+all,pagerank,1,T1059,technique,Command and Scripting Interpreter,0.01809836020214126
+all,pagerank,2,T1105,technique,Ingress Tool Transfer,0.015024882550156486
+all,pagerank,3,T1027,technique,Obfuscated Files or Information,0.015021025998133545
+all,pagerank,4,T1071,technique,Application Layer Protocol,0.01376110754748895
+all,pagerank,5,T1082,technique,System Information Discovery,0.012207337995753631
+all,pagerank,6,T1083,technique,File and Directory Discovery,0.01082821334441639
+all,pagerank,7,T1140,technique,Deobfuscate/Decode Files or Information,0.01021914155403821
+all,pagerank,8,T1070,technique,Indicator Removal,0.01011154000298814
+all,pagerank,9,T1036,technique,Masquerading,0.009241134880778488
+all,pagerank,10,T1057,technique,Process Discovery,0.009055046112090454
+groups,degree,1,G0094,group,Kimsuky,0.08589951377633712
+groups,degree,2,G0007,group,APT28,0.0826580226904376
+groups,degree,3,G0096,group,APT41,0.07941653160453808
+groups,degree,4,G0016,group,APT29,0.07779578606158832
+groups,degree,5,G0032,group,Lazarus Group,0.07698541329011345
+groups,degree,6,G0034,group,Sandworm Team,0.07374392220421394
+groups,degree,7,G0049,group,OilRig,0.0713128038897893
+groups,degree,8,G0129,group,Mustang Panda,0.06807131280388978
+groups,degree,9,G0010,group,Turla,0.06482982171799027
+groups,degree,10,G0082,group,APT38,0.06158833063209076
+groups,betweenness,1,G0007,group,APT28,0.019152799750351644
+groups,betweenness,2,G0016,group,APT29,0.013964438852329564
+groups,betweenness,3,G0096,group,APT41,0.012625067313333719
+groups,betweenness,4,G0034,group,Sandworm Team,0.012535588592819223
+groups,betweenness,5,G0094,group,Kimsuky,0.011982769704905869
+groups,betweenness,6,G0032,group,Lazarus Group,0.01136082947167252
+groups,betweenness,7,G0129,group,Mustang Panda,0.008268946658586516
+groups,betweenness,8,G0049,group,OilRig,0.007459578641023401
+groups,betweenness,9,G1015,group,Scattered Spider,0.0068091916542823774
+groups,betweenness,10,G0010,group,Turla,0.006618601369254226
+groups,closeness,1,G0096,group,APT41,0.49618013671089667
+groups,closeness,2,G0034,group,Sandworm Team,0.49518459069020865
+groups,closeness,3,G0094,group,Kimsuky,0.4945891783567134
+groups,closeness,4,G0007,group,APT28,0.4934026389444222
+groups,closeness,5,G0129,group,Mustang Panda,0.48929421094369546
+groups,closeness,6,G0016,group,APT29,0.4887128712871287
+groups,closeness,7,G0032,group,Lazarus Group,0.48793989719256625
+groups,closeness,8,G0102,group,Wizard Spider,0.4865930599369085
+groups,closeness,9,G0010,group,Turla,0.4854445318646735
+groups,closeness,10,G0049,group,OilRig,0.4841114162416634
+groups,eigenvector,1,G0094,group,Kimsuky,0.07235564691004283
+groups,eigenvector,2,G0032,group,Lazarus Group,0.0690160200972779
+groups,eigenvector,3,G0096,group,APT41,0.06321580296061134
+groups,eigenvector,4,G0082,group,APT38,0.06117125574969528
+groups,eigenvector,5,G0129,group,Mustang Panda,0.060525127603909094
+groups,eigenvector,6,G0049,group,OilRig,0.058777386845545385
+groups,eigenvector,7,G0010,group,Turla,0.05828790494843502
+groups,eigenvector,8,G0069,group,MuddyWater,0.056812739699243435
+groups,eigenvector,9,G0059,group,Magic Hound,0.05675746884664247
+groups,eigenvector,10,G0102,group,Wizard Spider,0.056585688049523374
+groups,pagerank,1,G0007,group,APT28,0.0034005568058925783
+groups,pagerank,2,G0016,group,APT29,0.0030841536062702953
+groups,pagerank,3,G0094,group,Kimsuky,0.003071601083912318
+groups,pagerank,4,G0096,group,APT41,0.002975998553630639
+groups,pagerank,5,G0034,group,Sandworm Team,0.002819251637447675
+groups,pagerank,6,G0032,group,Lazarus Group,0.002801946367155591
+groups,pagerank,7,G0049,group,OilRig,0.0025726080694741
+groups,pagerank,8,G0129,group,Mustang Panda,0.0024351246156234714
+groups,pagerank,9,G0010,group,Turla,0.0023040320670126876
+groups,pagerank,10,G1017,group,Volt Typhoon,0.002208753516589747

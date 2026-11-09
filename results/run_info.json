@@ -1,0 +1,68 @@
+{
+ "input_sha256": "539a843a7b53ed9749740b2123dddae3726b1a4831841c32aca740b011b910b5",
+ "attack": {
+  "collection": "Enterprise ATT&CK",
+  "version": "20.1",
+  "modified": "2026-11-05T15:11:27.678Z"
+ },
+ "dropped_objects": {
+  "intrusion-set": 15,
+  "malware": 3,
+  "attack-pattern": 161
+ },
+ "relationships": {
+  "used_software-technique": 11608,
+  "used_group-technique": 4815,
+  "skipped_endpoint_missing": 1386,
+  "used_group-software": 1166
+ },
+ "graph_full": {
+  "n_nodes": 1235,
+  "n_edges": 15456,
+  "density": 0.02028359766140198,
+  "n_components": 1,
+  "nodes_by_kind": {
+   "software": 842,
+   "technique": 215,
+   "group": 178
+  },
+  "avg_clustering": 0.07923813784080451
+ },
+ "graph_lcc": {
+  "n_nodes": 1235,
+  "n_edges": 15456,
+  "density": 0.02028359766140198,
+  "n_components": 1,
+  "nodes_by_kind": {
+   "software": 842,
+   "technique": 215,
+   "group": 178
+  },
+  "avg_clustering": 0.07923813784080451
+ },
+ "versions": {
+  "python": "3.12.10",
+  "networkx": "3.7",
+  "igraph": "1.0.0",
+  "leidenalg": "0.12.0",
+  "scikit_learn": "1.9.1",
+  "scipy": "1.18.1",
+  "pandas": "3.0.6"
+ },
+ "settings": {
+  "seeds": 30,
+  "lfr_reps": 5,
+  "weights": "unweighted",
+  "subtechniques": "collapsed to parent",
+  "campaigns": "excluded",
+  "leiden_n_iterations": "leidenalg default",
+  "louvain_resolution": 1
+ },
+ "centrality_runtime_s": {
+  "degree": 0.0015448000049218535,
+  "betweenness": 11.013448700075969,
+  "closeness": 2.273188399965875,
+  "eigenvector": 1.9486394999548793,
+  "pagerank": 0.030526099959388375
+ }
+}

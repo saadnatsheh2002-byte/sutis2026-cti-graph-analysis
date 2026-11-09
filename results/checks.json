@@ -1,0 +1,100 @@
+{
+ "nmi_self_and_shuffle": {
+  "passed": true,
+  "self": 1.0,
+  "shuffled_mean": 0.04612635392043936
+ },
+ "nmi_broken_constant_one": {
+  "control_rejected": true
+ },
+ "kendall_self_and_perm": {
+  "passed": true,
+  "self": 0.9999999999999999,
+  "perm_mean": -6.351747714879973e-05
+ },
+ "kendall_broken_abs": {
+  "control_rejected": true
+ },
+ "louvain_beats_random_modularity": {
+  "passed": true,
+  "q": 0.2237848398505984,
+  "q_random": -0.0003452162607323894
+ },
+ "modularity_with_random_as_louvain": {
+  "control_rejected": true
+ },
+ "lfr_louvain_recovers_low_mixing": {
+  "passed": true,
+  "nmi_mu0.1": 1.0
+ },
+ "lfr_high_mixing_should_not_pass_0.9": {
+  "control_rejected": true
+ },
+ "lfr_louvain_mu0.7_nmi": 0.0661094930866669,
+ "lpa_cross_implementation": {
+  "passed": true,
+  "nx_asyn_n_comm_10seeds": [
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "nx_semisync_n_comm": 1,
+  "igraph_lpa_n_comm_10seeds": [
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ]
+ },
+ "leiden_converged_stability": {
+  "passed": true,
+  "mean_pairwise_nmi": 0.3701765197461279,
+  "min_pairwise_nmi": 0.21305398291010116,
+  "q_mean": 0.2243957027756033,
+  "n_comm": [
+   5,
+   5,
+   5,
+   5,
+   5,
+   5,
+   5,
+   5,
+   5,
+   5,
+   5,
+   5,
+   5,
+   6,
+   6,
+   6,
+   6,
+   6,
+   6,
+   6,
+   6,
+   6,
+   6,
+   6,
+   6,
+   6,
+   6,
+   6,
+   6,
+   7
+  ]
+ }
+}

@@ -1,0 +1,7 @@
+a,b,n_pairs,mean_nmi,mean_ari
+louvain,leiden,30,0.3502627419916925,0.33594204163314206
+louvain,greedy_modularity,30,0.3308850515183257,0.32494836071601585
+louvain,label_propagation,30,0.0,0.0
+leiden,greedy_modularity,30,0.3197413549337224,0.3229364775566928
+leiden,label_propagation,30,0.0,0.0
+greedy_modularity,label_propagation,30,0.0,0.0

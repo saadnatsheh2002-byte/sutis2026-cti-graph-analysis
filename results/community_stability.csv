@@ -1,0 +1,5 @@
+algorithm,n_runs,mean_pairwise_nmi,min_pairwise_nmi,note
+louvain,30,0.35822450319843896,0.22877854634707015,
+leiden,30,0.3668328611848922,0.22085487317577907,
+greedy_modularity,1,1.0,1.0,deterministic
+label_propagation,30,1.0,1.0,
